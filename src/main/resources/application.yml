@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: example-camel-dynamic-routes
+
+  cloud:
+    service-registry:
+      auto-registration:
+        enabled: false
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+application:
+  sysctrl:
+    timer:
+      rateInMilliseconds: 30000
