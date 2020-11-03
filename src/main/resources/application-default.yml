@@ -1,0 +1,8 @@
+server:
+  port: 47001
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/camel_dynamic
+    username: camel
+    password: camelWalk7
